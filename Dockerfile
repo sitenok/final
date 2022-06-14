@@ -8,8 +8,8 @@ RUN pip3 install uvicorn
 
 WORKDIR /root
 RUN git init
-RUN git clone https://github.com/sitenok/RESTapis
+RUN git clone https://github.com/sitenok/final
 
-WORKDIR /root/nicole-oss-assignment3
+WORKDIR /root/nicole-oss-final
 EXPOSE 8080
 CMD ["uvicorn", "main:app1", "--reload", "port=8080"]
