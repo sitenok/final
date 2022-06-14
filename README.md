@@ -31,11 +31,6 @@ In terminal run the following **commands**:
 4. ``docker run -d -p 8080:8080 ANYTAG:latest``
 
 
-Add a new variable:
---------------------
-
-5. ``curl -X POST “http://localhost:8080/numbers?new=(\any integer)”``
-
 
 The following can be used with this RESTful API service:
 -----------------------------------------------------------------
